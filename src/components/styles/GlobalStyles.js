@@ -263,6 +263,7 @@ export const baseStyles = injectGlobal`
     margin-bottom: 0;
     border: 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
     -webkit-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);

@@ -1,32 +1,23 @@
 ---
-title: "Introduction"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+title: 'Introduction'
+metaTitle: 'Introduction'
+metaDescription: 'Introduction au codage email'
 ---
 
-Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
+# Retour début des années 2000 📠
 
-# Heading H1
-Heading 1 text
+Pour ma part, étant assez jeune à l'époque, je n'ai pas connu la galère de devoir développer des pages web rendues de manière conditionnelle pour un browser précis, ce qui fait que j'ai toujours codé un site avec des `div`, des `sections`, du `scss` dans une feuille de style externe, et j'ai même le plaisir de pouvoir changer la `font` affichée à l'écran !
 
-## Heading H2
-Heading 2 text
+Vous me direz, _"Bah, c'est un peu la base non ?_, et vous auriez raison, de nos jours on y pense même plus, on lance un petit _create-react-app_ et c'est partit.
+Sauf qu'il y'a 20 ans de cela, l'HTML5 c'était de l'HTML4 voir du XHTML. Pareil pour le CSS3, on était encore au CSS2(.1).
 
-### Heading H3
-Heading 3 text
+Cela implique que toute nos habitudes de _coding_ modernes ne sont plus valables, et que par conséquent nous n'arriverons jamais à produire un affichage consistant entre toutes les plateformes mails disponibles sur le marché.
 
-#### Heading H4
-Heading 4 text
+La solution : coder comme en 1998, à savoir, avec des `table` ! 😮
 
-##### Heading H5
-Heading 5 text
+## Des tables ? Mon bureau me suffit pour travailler, non ?
 
-###### Heading H6
-Heading 6 text
+Bonne blague petits comiques, oui en effet votre bureau suffira, mais les `table` on ne pourra pas s'en passer (pas dans l'immédiat en tout cas).
 
-## Lists
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+A l'heure du responsive, on va reprendre goût à _slicer_ ses mock-ups, à travailler avec des `px` (et oui, pas de REM !) et même mettre notre style en _inline_ !  
+Oubliez les bonnes pratiques d'aujourd'hui, ce soir on pisse sur le W3C !
