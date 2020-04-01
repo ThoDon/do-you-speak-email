@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: './home.svg',
+    logo: '/home.svg',
     logoLink: 'https://www.doyouspeak.email/',
     title: '',
     githubUrl: '',
