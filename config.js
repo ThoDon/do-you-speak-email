@@ -1,8 +1,8 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://dreamy-stonebraker-149823.netlify.com/',
-    gaTrackingId: 'G-98R3Y5H3M1',
+    siteUrl: 'https://www.doyouspeak.email/',
+    gaTrackingId: 'GTM-WFXKJSF',
     trailingSlash: false,
   },
   header: {
@@ -44,7 +44,7 @@ const config = {
     collapsedNav: [
       // '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Merci à Hasura pour le thème Gatsby', link: 'https://hasura.io' }],
     frontline: false,
     ignoreIndex: true,
     title:
@@ -52,8 +52,8 @@ const config = {
       '',
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Do You Speak Email ? | Thomas Doneux',
+    description: "Petit guide d'intégration pour les emails",
     ogImage: null,
     docsLocation: 'https://github.com/ThoDon/do-you-speak-email/tree/master/content',
     favicon: '/logo.svg',
@@ -61,11 +61,11 @@ const config = {
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'Do You Speak Email ?',
+      short_name: 'DYSE',
       start_url: '/',
-      background_color: '#6b37bf',
-      theme_color: '#6b37bf',
+      background_color: '#5c80bc',
+      theme_color: '#5c80bc',
       display: 'standalone',
       crossOrigin: 'use-credentials',
       icons: [
