@@ -27,7 +27,7 @@ Bon clairement, ça ne suffira pas pour envoyer un coupon de réduction ou autre
 Les plus malins d'entre vous auront sans doute tiqué, dans mon introduction je vous dis que l'on va utiliser de vieilles technologies et je vous ai même parlé de XHTML et d'HTML4, sauf que dans mon exemple, j'utilise ceci : `<!DOCTYPE html>`, qui correspond à un doctype HTML5 ?!
 
 En effet, pour rester concis, la majeure partie des boîtes mails ne prêtent pas attention au type de doctype de votre document, ceux-ci préfèrant l'adapter à leur sauce.  
-C'est pourquoi dans un soucis de simplicité, on va utiliser quelque chose de simple à retenir 😉
+C'est pourquoi dans un soucis de simplicité, on va utiliser quelque chose de court à retenir 😉
 
 Ceux désirant en apprendre un peu plus sur le fonctionnement des doctypes dans l'email peuvent consulter <a target="_blank" title="Article de Rémi Parmentier sur les doctypes" href="https://emails.hteumeuleu.fr/2016/10/quel-doctype-faut-il-utiliser-dans-un-email/">cet article</a> du grand HTEUMEULEU (une pointure dans le milieu !).
 

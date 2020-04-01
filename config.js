@@ -6,9 +6,10 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'src/logo.svg',
+    logo: 'https://dreamy-stonebraker-149823.netlify.com/brand.svg',
     logoLink: 'https://dreamy-stonebraker-149823.netlify.com/',
-    title: '',
+    title:
+      "<a href='https://dreamy-stonebraker-149823.netlify.com/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
