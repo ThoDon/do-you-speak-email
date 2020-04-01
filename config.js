@@ -6,10 +6,9 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://dreamy-stonebraker-149823.netlify.com/brand.svg',
-    logoLink: 'https://dreamy-stonebraker-149823.netlify.com/',
-    title:
-      "<a href='https://dreamy-stonebraker-149823.netlify.com/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+    logo: './home.svg',
+    logoLink: 'https://www.doyouspeak.email/',
+    title: '',
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
@@ -57,7 +56,7 @@ const config = {
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: null,
     docsLocation: 'https://github.com/ThoDon/do-you-speak-email/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: '/logo.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.

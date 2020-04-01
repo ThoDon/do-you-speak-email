@@ -76,7 +76,7 @@ export const baseStyles = injectGlobal`
     border-radius: 1px;
     margin: 0 auto;
     margin-top: 4px;
-    background-color: #001934;
+    background-color: #5c80bc;
   }
   .navBarToggle .iconBar:first-child {
     margin-top: 0px;
@@ -257,7 +257,7 @@ export const baseStyles = injectGlobal`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #5c80bc;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -287,7 +287,7 @@ export const baseStyles = injectGlobal`
   }
 
   .navBarBrand img {
-    width: 120px;
+    width: 256px;
     margin-right: 6px;
     display: inline-block;
   }
@@ -375,7 +375,7 @@ export const baseStyles = injectGlobal`
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
-    color: #001934;
+    color: #5c80bc;
     display: flex;
     align-items: center;
   }
@@ -385,7 +385,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sidebarTitle a {
-    color: #001934;
+    color: #5c80bc;
   }
 
   .greenCircle {
@@ -451,7 +451,7 @@ export const baseStyles = injectGlobal`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
+    background-color: #5c80bc;
     color: #fff !important;
   }
   .firstLevel ul li .collapser svg path {
@@ -471,7 +471,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #5c80bc;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -509,7 +509,7 @@ export const baseStyles = injectGlobal`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #1ed3c6 !important;
+    background-color: #5c80bc !important;
     color: #fff;
   }
 
@@ -735,13 +735,13 @@ export const baseStyles = injectGlobal`
 
   @media (max-width: 767px) {
     .formElement svg path {
-      fill: #001934;
+      fill: #5c80bc;
     }
     .visibleMobileView {
       display: block !important;
     }
     .searchInput {
-      color: #001934;
+      color: #5c80bc;
     }
     .socialWrapper {
       position: absolute;
