@@ -20,4 +20,5 @@ La solution : coder comme en 1998, à savoir, avec des `table` ! 😮
 Bonne blague petits comiques, oui en effet votre bureau suffira, mais les `table` on ne pourra pas s'en passer (pas dans l'immédiat en tout cas).
 
 A l'heure du responsive, on va reprendre goût à _slicer_ ses mock-ups, à travailler avec des `px` (et oui, pas de REM !) et même mettre notre style en _inline_ !  
-Oubliez les bonnes pratiques d'aujourd'hui, ce soir on pisse sur le W3C !
+
+Mais avant toute chose, attention à ce qui suit...

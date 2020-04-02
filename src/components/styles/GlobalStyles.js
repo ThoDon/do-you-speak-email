@@ -419,7 +419,8 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL {
-    margin-top: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .sideBarUL li {
@@ -751,7 +752,6 @@ export const baseStyles = injectGlobal`
     .responsive {
       margin-top: 15px;
       position: relative;
-      padding-bottom: 20px;
       border-top: 1px solid #fff;
     }
     .headerTitle {
@@ -765,6 +765,7 @@ export const baseStyles = injectGlobal`
       margin-right: 8px;
     }
     .topnav.responsive .visibleMobile {
+      background-color : #ffffff;
       display: block;
     }
     .topnav .navBarUL {

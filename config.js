@@ -38,13 +38,12 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
+      '/attention',
       '/structure',
-      // '/codeblock',
+      '/coder',
     ],
-    collapsedNav: [
-      // '/codeblock', // add trailing slash if enabled above
-    ],
-    links: [{ text: 'Merci à Hasura pour le thème Gatsby', link: 'https://hasura.io' }],
+    collapsedNav: [],
+    links: [],
     frontline: false,
     ignoreIndex: true,
     title:
