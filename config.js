@@ -39,8 +39,9 @@ const config = {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
       '/attention',
-      '/structure',
       '/coder',
+      '/structure',
+      '/a-l-attaque',
     ],
     collapsedNav: [],
     links: [],
@@ -58,7 +59,7 @@ const config = {
     favicon: '/logo.svg',
   },
   pwa: {
-    enabled: false, // disabling this will also remove the existing service worker.
+    enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
       name: 'Do You Speak Email ?',
       short_name: 'DYSE',

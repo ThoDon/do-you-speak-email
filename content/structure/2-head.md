@@ -6,7 +6,7 @@ metaDescription: 'Compléter le haut du code'
 
 # Quelques lignes de code bien mystérieuse
 
-Dans un premier temps, copier-coller ces lignes car elles seont nécessaires au bon affichage du mail, nous y reviendrons par la suite, promis 😉
+Dans un premier temps, copiez-collez ces lignes car elles seont nécessaires au bon affichage du mail, nous y reviendrons par la suite, promis 😉
 
 Remplacer votre balise `html` par ceci :
 
