@@ -1,9 +1,9 @@
 export const onServiceWorkerUpdateReady = () => {
   const answer = window.confirm(
-    `This tutorial has been updated. ` +
-      `Reload to display the latest version?`
-  )
+    `Hey ! J'ai mis ce site à jour avec de nouvelles infos/ corrections !` +
+      `Voulez-vous afficher la dernière version ?`
+  );
   if (answer === true) {
-    window.location.reload()
+    window.location.reload();
   }
-}
+};
