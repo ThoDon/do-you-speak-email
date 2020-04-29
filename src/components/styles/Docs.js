@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StyledHeading = styled('h1')`
-  font-size: 32px;
+  font-size: 25px;
   line-height: 1.5;
   font-weight: 500;
   border-left: 2px solid #5c80bc;

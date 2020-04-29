@@ -11,8 +11,7 @@ export const Sidebar = styled('aside')`
   position: -moz-sticky;
   position: sticky;
   top: 0;
-
-  background: ${props => props.theme.colors.background};
+  background: #fff;
 
   .rightSideTitle {
     font-size: 10px;

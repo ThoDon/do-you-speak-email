@@ -32,8 +32,9 @@ const Wrapper = styled('div')`
 const Content = styled('main')`
   display: flex;
   flex-grow: 1;
-  margin: 0px 88px;
-  padding-top: 3rem;
+  margin: 0 auto;
+  max-width: 780px;
+  padding: 1rem;
   background: ${({ theme }) => theme.colors.background};
 
   table tr {
@@ -43,15 +44,14 @@ const Content = styled('main')`
   @media only screen and (max-width: 1023px) {
     padding-left: 0;
     margin: 0 10px;
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
 `;
 
 const MaxWidth = styled('div')`
-  @media only screen and (max-width: 50rem) {
-    width: 100%;
-    position: relative;
-  }
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
 `;
 
 const LeftSideBarWidth = styled('div')`

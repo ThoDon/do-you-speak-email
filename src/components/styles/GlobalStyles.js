@@ -263,6 +263,7 @@ export const baseStyles = injectGlobal`
     margin-bottom: 0;
     border: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
@@ -517,9 +518,9 @@ export const baseStyles = injectGlobal`
   .titleWrapper {
     display: flex;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     border-bottom: 1px solid rgb(230, 236, 241);
-    margin-bottom: 32px;
+    margin-bottom: 25px;
   }
 
   .gitBtn {
@@ -666,7 +667,7 @@ export const baseStyles = injectGlobal`
   }
 
   .heading1 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 800;
     line-height: 1.5;
     margin-bottom: 16px;
@@ -714,7 +715,7 @@ export const baseStyles = injectGlobal`
   }
 
   .paragraph {
-    margin: 16px 0px 32px;
+    margin: 16px 0px 24px;
     line-height: 1.625;
   }
 
@@ -731,10 +732,15 @@ export const baseStyles = injectGlobal`
     padding: 0;
   }
   .topnav {
+    display:none;
+    width: 100%;
     -webkit-transition: top 0.5s, bottom 0.5s;
   }
 
   @media (max-width: 767px) {
+    .js-trigger-menu{
+      display: block;
+    }
     .formElement svg path {
       fill: #5c80bc;
     }
@@ -806,7 +812,6 @@ export const baseStyles = injectGlobal`
     }
 
     .navBarDefault {
-      display: block;
       height: auto;
     }
 

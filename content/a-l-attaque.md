@@ -63,7 +63,7 @@ Et comment positionner deux éléments côte à côte ? Rien de plus simple, on 
 
 🧠 Retenez bien ce psaume de l'emailing : TABLE, TR, TD, TABLE, TR, TD, etc...
 
-# C'est parti, let's code this !
+# Let's code this !
 
 Bien, maintenant que vous êtes équippés de notre structure de base, il va falloir la remplir ! 
 Reprenons donc notre code jusqu'ici : 
@@ -100,7 +100,7 @@ Tout ce qui va nous occuper pour le moment se trouvera donc dans le `<body></bod
 
 Première chose à faire, créer un sous-élément qui va venir accueillir notre contenu. J'ai déjà vu certain codes utilisant des tags `<center>`, d'autres des `<div>` ou encore des `<span>`. Personnellement, j'utilise une première `<table>`.
 
-🚫 Il existe un bug (sur Outlook évidemment...) qui crée d'énorme espace si votre `<table>` mesure plus de 1790 pixels de haut. Je recommande donc d'utiliser une `<div>` si vous ne savez quel hauteur fera votre email ! (e.g. les mails créés programmatiquement)
+🚫 Il existe un bug (sur Outlook évidemment...) qui crée d'énormes espaces si votre `<table>` mesure plus de 1790 pixels de haut. Je recommande donc d'utiliser une `<div>` si vous ne savez quel hauteur fera votre email ! (e.g. les mails créés programmatiquement)
 
 Donc, cela étant dit, crééons notre premier conteneur : 
 
@@ -115,6 +115,7 @@ Donc, cela étant dit, crééons notre premier conteneur :
     table-layout: fixed; 
     background: #e9e9e9;"
 >
+</table>
 ```
 
 (J'ai volontairement splitté les éléments sur plusieurs lignes pour visualiser plus facilement, mais dans votre code vous pouvez évidemment tout mettre sur une ligne 😉)
@@ -133,3 +134,35 @@ Ok ! Voilà notre premier conteneur, déjà bien chargé en plus, voyons tout ç
 Pas mal, vous venez de voir les _attributs_ et les _styles_ que nous allons indiquer (presque) sur chacune des tables formant notre email 🎉  
 Ceux-ci seront bien entendu à adapter en fonction du contexte.
 
+
+🚀 Il convient bien entendu de vérifier que __chaque balise__ est correctement fermée, sous peine de voir vos éléments se promener de part et d'autre de l'écran 😏
+
+# Inception, on arrive
+
+Bien, vous vous souvenez de notre mantra ? Bon le revoici : TABLE, TR, TD, TABLE, TR, TD...
+
+On continue donc notre premier contenant en rajoutant un `<tr> </tr>`  
+(❌&nbsp;__qui ne sera jamais stylisé !__&nbsp;❌) suivit d'une première cellule `<td></td>`.
+
+So far so good : 
+```html
+<table cellpadding="0" cellspacing="0" border="0" style="width: 100%; text-align: center; table-layout: fixed; background: #e9e9e9;">
+  <tr>
+    <td>
+
+    </td>
+  </tr>
+</table>
+```
+
+Comme expliqué dans le chapitre précédent, nous avons dû écraser certains paramètres par défaut en venant styliser notre `<td>`.
+
+Voici le comment du pourquoi : 
+
+
+
+# Squelette terminé, plaçons maintenant les organes !
+
+Je vous l'accorde, dis comme cela c'est un peu gore... Mais l'idée est là 😁
+
+A l'intérieur du dit squelette, nous allons commencer par créer un __module__, un __composant__, un __snippet__, bref appelez le comme vous voulez, l'idée est de créer des morceaux de code que l'on pourra par la suite réutiliser.

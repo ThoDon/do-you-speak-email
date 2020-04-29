@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const StyledNextPrevious = styled('div')`
   margin: 0px;
-  padding: 0px;
+  padding: 30px 0 0 0;
   width: auto;
   display: grid;
   grid-template-rows: auto;
