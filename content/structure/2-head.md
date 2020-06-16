@@ -61,6 +61,18 @@ Pour ça rien de compliqué, on ouvre une balise `<title>` et on indique le suje
 ```html
 <title>50% de remise sur la techwear !</title>
 ```
+# Une dernière touche pour notre dark mode
+
+Pour faire fonctionner notre dark mode sur les plateformes Apple, on doit rajouter un petit bout de style, que voici d'ailleurs : 
+
+```html
+<style>
+  :root {
+    color-scheme: light dark;
+    supported-color-schemes: light dark;
+  }
+</style>
+```
 
 # On met tout ça dans le four :
 
@@ -74,6 +86,7 @@ Pour ça rien de compliqué, on ouvre une balise `<title>` et on indique le suje
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
     <meta name="x-apple-disable-message-reformatting" />
     <style>
+    :root {color-scheme: light dark; supported-color-schemes: light dark;}
     #outlook a{padding:0;} 
     body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} 
     table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} 
